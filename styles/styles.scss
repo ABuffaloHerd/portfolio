@@ -1,0 +1,28 @@
+html {
+    background-image: linear-gradient(to bottom right, red, blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Title {
+    background: #CF0000;
+    background: -webkit-radial-gradient(circle farthest-corner at center center, #CF0000 0%, #EEFF03 25%, #00FF00 43%, #05FFFF 64%, #1100FF 85%, #CF00BA 100%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, #CF0000 0%, #EEFF03 25%, #00FF00 43%, #05FFFF 64%, #1100FF 85%, #CF00BA 100%);
+    background: radial-gradient(circle farthest-corner at center center, #CF0000 0%, #EEFF03 25%, #00FF00 43%, #05FFFF 64%, #1100FF 85%, #CF00BA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family: 'Comic Sans MS';
+    font-size: 80px;
+
+    margin: auto;
+}
+
+.tyler-div {
+    background-image: url("/images/tyler-creator.jpg ");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
